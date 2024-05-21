@@ -1,0 +1,28 @@
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  #navbar {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0px;
+      h3 {
+        font-size: 30px;
+        font-weight: 600;
+        color: white;
+      }
+      ul {
+        display: flex;
+        gap: 20px;
+        a {
+          font-size: 20px;
+          color: white;
+        }
+      }
+    }
+  }
+}

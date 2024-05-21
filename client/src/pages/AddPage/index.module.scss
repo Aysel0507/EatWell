@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+  input {
+    padding: 10px 30px;
+    display: flex;
+    margin-left: 10px;
+  }
+  button {
+    margin-left: 20px;
+    padding: 12px 30px;
+    background-color: rgb(33, 176, 232);
+    border: none;
+    &:hover {
+      background-color: rgb(10, 179, 246);
+      cursor: pointer;
+    }
+  }
+}
